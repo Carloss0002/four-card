@@ -1,0 +1,105 @@
+body{
+    background-color: #E6E6E6;                
+    font-size: 15px;
+}
+
+.super{
+    border-top: 10px solid hsl(180, 62%, 55%);
+}
+.team{
+  border-top: 10px solid  hsl(0, 78%, 62%);
+}
+.karma{
+    border-top: 10px solid hsl(34, 97%, 64%);
+}
+.calculator{
+    border-top: 10px solid hsl(212, 86%, 64%);
+}
+.geral{
+    background: #fff;
+    border-radius:  10px;
+}
+/*MDIA QUERYS*/
+@media (max-width: 575.98px) {
+    .w{
+        width: 55%;
+        margin-left: 140px;
+    }  
+}
+@media (min-width: 768px) {
+    .h{
+        height:220px;
+    }
+    .width{
+        width: 30%;
+    }
+    .team{
+        position: relative;
+        left:60px;
+    }
+    .karma{
+        position: relative;
+        top: 240px;
+        right: 270px;
+    }
+    .calculator{
+        position: relative;
+        left: 750px;
+        bottom:70px;
+    }
+    .super{
+        position: relative;
+        top: 185px;
+        left: 40px;
+    }
+}
+@media (min-width: 1400px) { 
+    .karma{
+       position: relative;
+       right: 330px;
+    }
+    .calculator{
+        position: relative;
+        left: 850px;
+    }
+ }
+ @media (min-width: 768px){
+     .karma{
+         position: relative;
+         right: 150px;
+     }
+     .calculator{
+         position: relative;
+         left: 490px;
+     }
+ }
+ @media (min-width: 992px) { 
+     .karma{
+         position: relative;
+         right: 220px;
+     }
+     .calculator{
+         position: relative;
+         left:650px;
+     }
+  }
+  @media (min-width: 1200px) { 
+      .calculator{
+          position: relative;
+          left: 760px;
+      }
+      .karma{
+          position: relative;
+          right: 270px;
+      }
+   }
+   @media (min-width: 1400px){
+       .karma{
+           position: relative;
+           right: 330px;
+       }
+       .calculator{
+           position: relative;
+           left: 860px;
+       }
+   }
